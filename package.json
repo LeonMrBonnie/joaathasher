@@ -1,0 +1,12 @@
+{
+  "name": "joaathasher",
+  "version": "1.0.0",
+  "description": "Hashes the given string using the joaat algorithm",
+  "main": "index.js",
+  "bin": {
+    "joaat": "./index.js"
+  },
+  "scripts": {},
+  "author": "LeonMrBonnie",
+  "license": "ISC"
+}
