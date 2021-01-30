@@ -9,11 +9,19 @@ npm install -g joaathasher
 # How to use
 
 ```
-joaat <hash>
+joaat <hash> <?file>
 ```
 
-Example output:
+**Example output:**
+
+Without creating a file:
 ```
 > joaat test123
+> -1001436764
+```
+
+With creating a file:
+```
+> joaat test123 hash.txt
 > -1001436764
 ```

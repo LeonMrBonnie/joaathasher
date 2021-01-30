@@ -1,8 +1,14 @@
 #!/usr/bin/env node
+const fs = require("fs");
 
 const hash = process.argv[2];
+const file = process.argv[3];
 if(!hash) console.error("Invalid hash given");
-else console.log(`${joaat(hash.toLowerCase())}`);
+else {
+    let hashed = joaat(hash.toLowerCase());
+    console.log(`${hashed}`);
+    if(file) fs.writeFileSync(file, hashed.toString());
+}
 
 function joaat(key) {
     let hash = 0;
