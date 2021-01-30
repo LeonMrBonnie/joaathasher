@@ -8,5 +8,6 @@
   },
   "scripts": {},
   "author": "LeonMrBonnie",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }
