@@ -9,5 +9,8 @@
   "scripts": {},
   "author": "LeonMrBonnie",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "url": "https://github.com/LeonMrBonnie/joaathasher.git"
+  }
 }
