@@ -1,6 +1,6 @@
 {
   "name": "joaathasher",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Hashes the given string using the joaat algorithm",
   "main": "index.js",
   "bin": {
