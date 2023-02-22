@@ -5,8 +5,9 @@ const hash = process.argv[2];
 const file = process.argv[3];
 if(!hash) console.error("Invalid hash given");
 else {
-    let hashed = joaat(hash.toLowerCase());
-    console.log(`${hashed}`);
+    let hashed = joaat(hash.toLowerCase()) >>> 0;
+    let hashedHex = hashed.toString(16).toUpperCase();
+    console.log(`Decimal: ${hashed}\nHex:${hashedHex}`);
     if(file) fs.writeFileSync(file, hashed.toString());
 }
 
